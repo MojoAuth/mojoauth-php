@@ -1,4 +1,13 @@
-# PHP-SDK
+<p align="center">
+  <a href="https://www.mojoauth.com">
+    <img alt="MojoAuth" src="https://mojoauth.com/assets/images/logo.svg" width="200" />
+  </a>
+</p>
+
+<h1 align="center">
+  PHP SDK
+</h1>
+
 PHP SDK based on MojoAuth APIs.
 
 ![Home Image](https://mojoauth-cdn.netlify.app/assets/images/coming-soon.png)
@@ -27,3 +36,13 @@ $client = new mojoAuthAPI("MOJOAUTH_APIKEY");// mojoauth apikey replace at "MOJO
 ## Documentation
 
 [Getting Started](https://mojoauth.com/docs/) - Everything you need to begin using this SDK.
+
+## How to contribute
+
+We appreciate all kinds of contributions from anyone, be it finding an issue or writing a blog.
+
+Please check the [contributing guide](CONTRIBUTING.md) to become a contributor.
+
+## License
+
+For more information on licensing, please refer to [License](https://github.com/LoginRadius/engineering-portal/blob/master/LICENSE)
