@@ -10,9 +10,6 @@
 
 PHP SDK based on MojoAuth APIs.
 
-![Home Image](https://mojoauth-cdn.netlify.app/assets/images/coming-soon.png)
-
-
 ## Introduction
 
 MojoAuth PHP is a wrapper which provides access to MojoAuth Platform APIs.
@@ -45,4 +42,4 @@ Please check the [contributing guide](CONTRIBUTING.md) to become a contributor.
 
 ## License
 
-For more information on licensing, please refer to [License](https://github.com/LoginRadius/engineering-portal/blob/master/LICENSE)
+For more information on licensing, please refer to [License](https://github.com/MojoAuth/mojoauth-php/blob/main/LICENSE)
