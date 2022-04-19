@@ -176,9 +176,11 @@ class mojoAuthAPI
         curl_setopt($ch, CURLOPT_TIMEOUT, 50);
         curl_setopt($ch, CURLOPT_ENCODING, "gzip");
         $headerArray = array();
-        foreach ($options['headers'] as $k => $val) {
-            $headerArray[] = $k.":".$val;
-        }
+        if(isset($options['headers']) && !empty($options['headers'])){
+			foreach ($options['headers'] as $k => $val) {
+				$headerArray[] = $k.":".$val;
+			}
+		}
         
         curl_setopt($ch, CURLOPT_HTTPHEADER, $headerArray);
 
