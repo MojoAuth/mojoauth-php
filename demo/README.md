@@ -10,7 +10,7 @@
 
 ## Introduction
 
-MojoAuth PHP is a wrapper which provides access to MojoAuth Platform APIs.
+MojoAuth PHP is a wrapper that provides access to MojoAuth Platform APIs.
 
 MojoAuth provides a secure and delightful experience to your customer with passwordless.
 Here, you'll find comprehensive guides and documentation to help you to start working with MojoAuth APIs.
@@ -19,11 +19,11 @@ Please visit [here](http://www.mojoauth.com/) for more information.
 
 ## PHP SDK Demo
 
-This demo allows you to authentication using Email Magic Link. Checkout the example [here](https://mojoauth.com/docs/guides/php/#example) for other authentication methods.
+This demo allows you to authenticate using Email Magic Link. Check out the example [here](https://mojoauth.com/docs/guides/php/#example) for other authentication methods.
 
 ## Configuration
 
-Download the demo, mojoauth-php/demo from php sdk repo or clone the whole repo.
+Download the mojoauth-php/demo from php sdk repo or clone the whole repo.
 
 Update the configurations
 
@@ -36,6 +36,8 @@ session_start();
 ```
 
 Run the demo
+
+## Relevant Document
 
 [PHP SDK Documentation](https://mojoauth.com/docs/guides/php/)
 
