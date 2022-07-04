@@ -132,7 +132,7 @@ class mojoAuthAPI
     /**
      * resend Email OTP
      */
-    public function resendEmailOTP($state_id, $otp, $language="")
+    public function resendEmailOTP($state_id, $language="")
     {
         $query = [];
         if (!empty($language)) {
@@ -145,7 +145,7 @@ class mojoAuthAPI
                 "X-API-Key" => $this->getApikey(),
                 'Content-Type' => 'application/json; charset=utf-8'
             ),
-            "body" => array("state_id" => $state_id, "otp" => $otp)
+            "body" => array("state_id" => $state_id)
         ));
     }
     /**
