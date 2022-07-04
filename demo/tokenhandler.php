@@ -1,9 +1,10 @@
 <?php
 
 require_once(__DIR__ . "/config.php");
+require_once(__DIR__ . "/../vendor/autoload.php");
+require_once(__DIR__ . "/../src/mojoAuthAPI.php");
 if (isset($_POST['access_token']) && !empty($_POST['access_token'])) {
     $access_token = $_POST['access_token'];
-    require_once(__DIR__ . "/sdk/mojoAuthAPI.php");
 
     // mojoauth apikey replace at "MOJOAUTH_APIKEY"
     $mojoAuth = new mojoAuthAPI(MOJOAUTH_APIKEY);
@@ -26,7 +27,6 @@ if (isset($_POST['access_token']) && !empty($_POST['access_token'])) {
     }
 } else if (isset($_GET['state_id']) && !empty($_GET['state_id'])) {
     $state_id = $_GET['state_id'];
-    require_once(__DIR__ . "/sdk/mojoAuthAPI.php");
 
     // mojoauth apikey replace at "MOJOAUTH_APIKEY"
     $mojoAuth = new mojoAuthAPI(MOJOAUTH_APIKEY);
