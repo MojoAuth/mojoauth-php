@@ -33,7 +33,7 @@ After successful install, you need to define the following MojoAuth Account info
 
 ```
 <?php
-require_once(__DIR__."mojoAuthAPI.php");
+require 'vendor/autoload.php';
 $client = new mojoAuthAPI("MOJOAUTH_APIKEY");// mojoauth apikey replace at "MOJOAUTH_APIKEY"
 ```                
 
