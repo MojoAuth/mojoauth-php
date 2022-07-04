@@ -21,12 +21,19 @@ Please visit [here](http://www.mojoauth.com/) for more information.
 
 # Quickstart Guide
 
+## Installation
+The MojoAuth PHP SDK can be installed with Composer. Run this command:
+
+```
+composer require mojoauth/php-sdk
+```
+
 ## Configuration
 After successful install, you need to define the following MojoAuth Account info in your project anywhere before using the MojoAuth SDK or in the config file of your project:
 
 ```
 <?php
-require_once(__DIR__."mojoAuthAPI.php");
+require 'vendor/autoload.php';
 $client = new mojoAuthAPI("MOJOAUTH_APIKEY");// mojoauth apikey replace at "MOJOAUTH_APIKEY"
 ```                
 
