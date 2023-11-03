@@ -1,7 +1,7 @@
 {
     "name": "mojoauth/php-sdk",
     "description": "MojoAuth PHP API Client",
-    "keywords": ["MojoAuth","PasswordLess","EmailOTp", "phpsdk", "auth-api", "auth-library"],
+    "keywords": ["MojoAuth","PasswordLess","EmailOTP", "phpsdk", "auth-api", "auth-library"],
     "homepage": "https://mojoauth.com",
     "type": "library",
     "license": "MIT",
